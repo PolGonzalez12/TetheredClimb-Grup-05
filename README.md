@@ -87,6 +87,3 @@ TetheredClimb/
 
 ---
 
-## 📜 Llicència
-
-Aquest projecte està publicat sota llicència **MIT** — consulta `LICENSE` per a més detalls.
