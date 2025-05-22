@@ -70,19 +70,9 @@ TetheredClimb/
 
 ## 🚀 Instal·lació
 
-```bash
-# 1. Clona el repositori
-$ git clone https://github.com/tu-usuari/TetheredClimb.git
-
-# 2. Obre el projecte a Unity 2022.3 LTS
-```
-
-> Per compilar: `File ▸ Build Settings ▸ Build` (Windows / Linux).
-
 ### Dependències
 
-* Unity 2022.3 o superior (URP **no** requerit).
-* Git LFS recomanat si afegeixes assets grans (`git lfs install`).
+* Unity 2022.3 o superior.
 
 ---
 
