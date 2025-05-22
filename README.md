@@ -25,7 +25,7 @@ Dos aventurers units per una **corda elàstica** han de col·laborar per recolli
 ```
 TetheredClimb/
 ├─ Assets/
-│  ├─ Art/               # Sprites i tileset (Aseprite)
+│  ├─ Sprites/           # Sprites i tileset (Aseprite)
 │  ├─ Audio/             # BGM i SFX
 │  ├─ Scenes/            # MainMenu, LoadingScene, Level01, FinalScene...
 │  └─ Scripts/
