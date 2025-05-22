@@ -29,13 +29,17 @@ TetheredClimb/
 │  ├─ Audio/             # BGM i SFX
 │  ├─ Scenes/            # MainMenu, LoadingScene, Level01, FinalScene...
 │  └─ Scripts/
+│      ├─ TetheredClimb/
 │      │   ├─ FollowCamera.cs
 │      │   ├─ GameManager.cs
 │      │   └─ AudioManager.cs
+│      ├─ Players/
 │      │   ├─ Player1Controller.cs
 │      │   └─ Player2Controller.cs
+│      ├─ Rope/
 │      │   ├─ RopeGenerator.cs
 │      │   └─ RopeBetweenPlayers.cs
+│      └─ UI/
 │          ├─ FlechaGuiaUI.cs
 │          └─ NPCDialogue.cs
 └─ README.md
@@ -43,13 +47,13 @@ TetheredClimb/
 
 ### Scripts destacats
 
-| Nom               | Descripció                                                                | Fitxer                                                                         |
-| ----------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| **FollowCamera**  | Càmera ortogràfica que centra el punt mitjà dels jugadors i aplica límits | [`Assets/Scripts/Core/FollowCamera.cs`](Assets/Scripts/Core/FollowCamera.cs)   |
-| **RopeGenerator** | Crea la corda amb `HingeJoint2D` i LineRenderer                           | [`Assets/Scripts/Rope/RopeGenerator.cs`](Assets/Scripts/Rope/RopeGenerator.cs) |
-| **GameManager**   | Estat global de la missió, compta monedes i canvia d’escena               | [`Assets/Scripts/Core/GameManager.cs`](Assets/Scripts/Core/GameManager.cs)     |
-| **AudioManager**  | Música en loop + SFX amb *ducking* durant diàlegs                         | [`Assets/Scripts/Core/AudioManager.cs`](Assets/Scripts/Core/AudioManager.cs)   |
-| **NPCDialogue**   | Diàleg lletra‑a‑lletra i inici de la missió                               | [`Assets/Scripts/UI/NPCDialogue.cs`](Assets/Scripts/UI/NPCDialogue.cs)         |
+| Nom               | Descripció                                                                | Fitxer                                                                                  |
+| ----------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| **FollowCamera**  | Càmera ortogràfica que centra el punt mitjà dels jugadors i aplica límits | [`Assets/Scripts/TetheredClimb/FollowCamera.cs`](Assets/Scripts/Core/FollowCamera.cs)   |
+| **RopeGenerator** | Crea la corda amb `HingeJoint2D` i LineRenderer                           | [`Assets/Scripts/TetheredClimb/RopeGenerator.cs`](Assets/Scripts/Rope/RopeGenerator.cs) |
+| **GameManager**   | Estat global de la missió, compta monedes i canvia d’escena               | [`Assets/Scripts/TetheredClimb/GameManager.cs`](Assets/Scripts/Core/GameManager.cs)     |
+| **AudioManager**  | Música en loop + SFX amb *ducking* durant diàlegs                         | [`Assets/Scripts/TetheredClimb/AudioManager.cs`](Assets/Scripts/Core/AudioManager.cs)   |
+| **NPCDialogue**   | Diàleg lletra‑a‑lletra i inici de la missió                               | [`Assets/Scripts/TetheredClimb/NPCDialogue.cs`](Assets/Scripts/UI/NPCDialogue.cs)       |
 
 ---
 
@@ -87,7 +91,7 @@ $ git clone https://github.com/tu-usuari/TetheredClimb.git
 * [x] Mecànica de corda estable
 * [x] Fletxa guia de monedes
 * [x] Menú + pantalla de càrrega asíncrona
-* [x] Parallax background (polish)
+* [ ] Parallax background (polish)
 * [ ] Suport *gamepad* (Input System)
 * [ ] Nous nivells i enemics
 
