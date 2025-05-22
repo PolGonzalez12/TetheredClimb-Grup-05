@@ -2,7 +2,7 @@
 
 > Plataforma cooperativa 2D • Unity 2022.3 • C#
 
-![Unity 2022](https://img.shields.io/badge/Unity-2022.3-blue?logo=unity)  ![License](https://img.shields.io/badge/license-MIT-green)
+![Unity 2022](https://img.shields.io/badge/Unity-2022.3-blue?logo=unity)
 
 ---
 
