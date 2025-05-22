@@ -33,15 +33,12 @@ TetheredClimb/
 │      │   ├─ FollowCamera.cs
 │      │   ├─ GameManager.cs
 │      │   └─ AudioManager.cs
-│      ├─ Players/
 │      │   ├─ Player1Controller.cs
 │      │   └─ Player2Controller.cs
-│      ├─ Rope/
 │      │   ├─ RopeGenerator.cs
 │      │   └─ RopeBetweenPlayers.cs
-│      └─ UI/
-│          ├─ FlechaGuiaUI.cs
-│          └─ NPCDialogue.cs
+│      │   ├─ FlechaGuiaUI.cs
+│      │   └─ NPCDialogue.cs
 └─ README.md
 ```
 
