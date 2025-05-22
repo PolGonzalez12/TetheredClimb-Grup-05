@@ -29,17 +29,13 @@ TetheredClimb/
 │  ├─ Audio/             # BGM i SFX
 │  ├─ Scenes/            # MainMenu, LoadingScene, Level01, FinalScene...
 │  └─ Scripts/
-│      ├─ Core/
 │      │   ├─ FollowCamera.cs
 │      │   ├─ GameManager.cs
 │      │   └─ AudioManager.cs
-│      ├─ Players/
 │      │   ├─ Player1Controller.cs
 │      │   └─ Player2Controller.cs
-│      ├─ Rope/
 │      │   ├─ RopeGenerator.cs
 │      │   └─ RopeBetweenPlayers.cs
-│      └─ UI/
 │          ├─ FlechaGuiaUI.cs
 │          └─ NPCDialogue.cs
 └─ README.md
@@ -91,17 +87,9 @@ $ git clone https://github.com/tu-usuari/TetheredClimb.git
 * [x] Mecànica de corda estable
 * [x] Fletxa guia de monedes
 * [x] Menú + pantalla de càrrega asíncrona
-* [ ] Parallax background (polish)
+* [x] Parallax background (polish)
 * [ ] Suport *gamepad* (Input System)
 * [ ] Nous nivells i enemics
-
----
-
-## 🙌 Contribuir
-
-1. **Fork** del repo i crea una branca `feature/<nom>`
-2. Fes commits petits i descriptius
-3. Envia *Pull Request* cap a `main`
 
 ---
 
