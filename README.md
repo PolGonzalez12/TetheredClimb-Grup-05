@@ -46,7 +46,7 @@ TetheredClimb/
 
 | Nom               | Descripció                                                                | Fitxer                                                                                  |
 | ----------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| **FollowCamera**  | Càmera ortogràfica que centra el punt mitjà dels jugadors i aplica límits | [`Assets/Scripts/TetheredClimb/FollowCamera.cs`](Assets/Scripts/Core/FollowCamera.cs)   |
+| **FollowCamera**  | Càmera ortogràfica que centra el punt mitjà dels jugadors i aplica límits | [`Assets/Scripts/TetheredClimb/FollowCamera.cs`](Assets/Scripts/TetheredClimb/FollowCamera.cs)   |
 | **RopeGenerator** | Crea la corda amb `HingeJoint2D` i LineRenderer                           | [`Assets/Scripts/TetheredClimb/RopeGenerator.cs`](Assets/Scripts/Rope/RopeGenerator.cs) |
 | **GameManager**   | Estat global de la missió, compta monedes i canvia d’escena               | [`Assets/Scripts/TetheredClimb/GameManager.cs`](Assets/Scripts/Core/GameManager.cs)     |
 | **AudioManager**  | Música en loop + SFX amb *ducking* durant diàlegs                         | [`Assets/Scripts/TetheredClimb/AudioManager.cs`](Assets/Scripts/Core/AudioManager.cs)   |
