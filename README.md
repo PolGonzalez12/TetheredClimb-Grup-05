@@ -78,9 +78,6 @@ TetheredClimb/
 * [x] Mecànica de corda estable
 * [x] Fletxa guia de monedes
 * [x] Menú + pantalla de càrrega asíncrona
-* [ ] Parallax background (polish)
-* [ ] Suport *gamepad* (Input System)
-* [ ] Nous nivells i enemics
 
 ---
 
