@@ -73,7 +73,7 @@ TetheredClimb/
 
 ### Demo
 
-https://polgonzalez12.itch.io/tethered-climb
+* https://polgonzalez12.itch.io/tethered-climb
 
 ---
 
