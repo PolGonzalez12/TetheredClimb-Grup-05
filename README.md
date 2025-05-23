@@ -71,6 +71,10 @@ TetheredClimb/
 
 * Unity 2022.3 o superior.
 
+### Demo
+
+https://polgonzalez12.itch.io/tethered-climb
+
 ---
 
 ## 🗺 Full de ruta
@@ -80,4 +84,3 @@ TetheredClimb/
 * [x] Menú + pantalla de càrrega asíncrona
 
 ---
-
