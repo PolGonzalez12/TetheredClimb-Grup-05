@@ -4,21 +4,14 @@ using UnityEngine;
 public class DynamicVerletRope : MonoBehaviour
 {
     [Header("Puntos de Anclaje")]
-    [Tooltip("RopeAttachPoint de Player1")]
     public Transform startPoint;
-    [Tooltip("RopeAttachPoint de Player2")]
     public Transform endPoint;
 
-    [Header("Configuración de la Cuerda")]
-    [Tooltip("Número de puntos de la cuerda (mínimo 2)")]
+    [Header("ConfiguraciÃ³n de la Cuerda")]
     public int segmentCount = 20;
-    [Tooltip("Longitud total de la cuerda en unidades")]
     public float ropeLength = 2f;
-    [Tooltip("Número de iteraciones para relajar la cuerda (cuanto mayor, más rígida)")]
     public int constraintIterations = 50;
-    [Tooltip("Gravedad aplicada a la cuerda")]
     public Vector2 gravity = new Vector2(0, -9.81f);
-    [Tooltip("Coeficiente de amortiguación (1 = sin amortiguación)")]
     public float damping = 0.99f;
 
     private float segmentLength;
